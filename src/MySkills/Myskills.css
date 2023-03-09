@@ -1,0 +1,31 @@
+.icc {
+    color: orangered;
+    scale: 5;
+ 
+}
+
+
+
+.fa-css3{
+    color: rgb(0, 183, 255);
+}
+
+.fa-js{
+    color: yellow;
+}
+
+.fa-bootstrap{
+    color: rgb(119, 44, 215);
+}
+
+.fa-mdb {
+    color: purple;
+}
+
+.fa-react{
+    color: aqua;
+}
+
+.skills p {
+    color: #fff;
+}

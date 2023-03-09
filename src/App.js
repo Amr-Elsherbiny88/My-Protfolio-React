@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { BrowserRouter, Link , NavLink , Route , Routes } from 'react-router-dom'
+import Home from './home/Home'
+import About from './About/About'
+import MySkills from './MySkills/MySkills'
+import Navbar from "./Navbar/Navbar"
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BrowserRouter>
+     
+     <Navbar/>
+
+          <Routes>
+            <Route path='/' element= {<Home/>}/>
+            <Route path='/About' element= {<About/>}/>
+            <Route path='/MySkills' element= {<MySkills/>}/>
+          </Routes>
+
+
+
+
+    </BrowserRouter>
+  )
 }
 
-export default App;
+export default App
