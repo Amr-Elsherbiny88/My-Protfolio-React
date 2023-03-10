@@ -5,7 +5,8 @@ import img from "./Programming-rafiki.png"
 import imgg from "./Hand coding-bro.png"
 import imggg from "./Coding.png"
 import imgggg from "./Palette-amico.png"
-
+import "animate.css/animate.min.css";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 
 
@@ -30,8 +31,8 @@ const About = () => {
 
 
 {/* About start */}
-
-  <section class="container">
+<AnimationOnScroll animateIn="animate__fadeInLeftBig" className='d-flex'>
+<section class="container">
     <div class="row">
 
       
@@ -56,11 +57,13 @@ const About = () => {
 
     </div>
   </section>
+</AnimationOnScroll>
+ 
 
-  <section class="container text-center align-content-center">
-    <div class="row">
-      
-      <div   class="col-xl-6 col-lg-6col-md-6 col-sm-6 text-center title ">
+<AnimationOnScroll animateIn="animate__fadeInLeftBig" className='d-flex'>
+<section class="container text-center align-content-center">
+  <div className="row">
+  <div   class="col-xl-6 col-lg-6col-md-6 col-sm-6 text-center title ">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-mdb-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -87,7 +90,17 @@ const About = () => {
                                         <p> ✅ Domain name buying</p>
         </div>
 
-        
+  </div>
+</section>
+    
+</AnimationOnScroll>
+
+
+      
+    
+<AnimationOnScroll animateIn="animate__fadeInLeftBig" className='d-flex'>
+<section class="container text-center align-content-center">
+        <div class="row">
         <div   class="col-xl-6 col-lg-6col-md-6 col-sm-6 text-center title ">
           <div id="carouselExampleSlidesOnly" class="carousel slide" data-mdb-ride="carousel">
             <div class="carousel-inner">
@@ -99,10 +112,7 @@ const About = () => {
           </div>
        </div>
 
-
-       
-
-        <div   class="col-xl-6 col-lg-6 col-md-6 col-sm-6  title  mt-3 mb-5">
+       <div   class="col-xl-6 col-lg-6 col-md-6 col-sm-6  title  mt-3 mb-5">
             <h3 class="mb-4">🛠 My technical skills:</h3>
             <p >✅ Design mockups and wireframes.</p>
             <p > ✅ Bug fix, QA, and problem solve.</p>
@@ -117,6 +127,20 @@ const About = () => {
                 <p>✅ Domain name buying</p> 
         </div>
 
+        
+
+        </div>
+          </section>      
+       
+</AnimationOnScroll>
+        
+
+       
+
+<AnimationOnScroll animateIn="animate__fadeInLeftBig" className='d-flex'>
+<section class="container text-center align-content-center">
+        <div class="row">
+             
         <div  class="col-xl-6 col-lg-6col-md-6 col-sm-6 text-center title ">
           <div id="carouselExampleSlidesOnly" class="carousel slide" data-mdb-ride="carousel">
             <div class="carousel-inner">
@@ -139,8 +163,18 @@ const About = () => {
                 <p >   👉 Chrome Developer Tools</p>
         </div>
 
+
+        </div>
+          </section>      
+       
+</AnimationOnScroll>
+        
+       
+
+
+
           
-    <div  class="col-xl-12 col-lg-12 col-md-12 col-sm-12  title mt-5 ">
+    <div  class="col-xl-12 col-lg-12 col-md-12 col-sm-12 text-center  title mt-5 ">
     
         <p>The main goal of my work is to meet the client's needs and deadlines. I enjoy
             learning new things and writing clean code. If you're looking for creating
@@ -150,10 +184,10 @@ const About = () => {
     </div>
 
     
-</div>
 
 
-<div  class="col-xl-12 col-lg-12 col-md-12 col-sm-12   title mt-5">
+
+<div  class="col-xl-12 col-lg-12 col-md-12 col-sm-12  text-center   title mt-5">
    
     <p>
         Always here to bring your ideas to be alive. Do not hesitate to contact me if you need any help, consultation or to discuss your project, please feel free to contact me at any time.👌
@@ -162,9 +196,11 @@ const About = () => {
 
 
 
-  </section>
 
 
+
+
+ 
 
 {/* About end */}
 

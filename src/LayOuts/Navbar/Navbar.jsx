@@ -16,7 +16,7 @@ import {
 
 function CollapsibleExample() {
     return (
-        <MDBNavbar light bgColor='dark'>
+        <MDBNavbar dark bgColor='dark'>
         <MDBContainer tag="form" fluid className='justify-content-center'>
             <NavLink to="/"> 
             <MDBBtn outline color="danger" className='me-2' type='button'>

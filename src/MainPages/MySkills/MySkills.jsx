@@ -5,7 +5,8 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./Myskills.css"
 import AOS from "aos";
 import "aos/dist/aos.css";
-
+import "animate.css/animate.min.css";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 import { MDBProgress, MDBProgressBar } from 'mdb-react-ui-kit';
 
 import {
@@ -46,16 +47,20 @@ const MySkills = () => {
 
       {/* skills start */}
 
+    
+      <AnimationOnScroll animateIn="animate__fadeInLeftBig" className='d-flex'>
+        
     <section class="container skills text-center mb-5">
     <div class="row">
-        <div  class="col-xl-4 col-lg-4 col-md-4 col-sm-4  mb-2 logo">
+
+    <div  class="col-xl-4 col-lg-4 col-md-4 col-sm-12  mb-2 logo">
             <i class="fa-brands fa-html5 mb-5 icc"></i>
             <p>HTML</p>
 
            
         </div>
 
-        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8   mb-5" >
+        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12   mb-5" >
 
           <MDBProgress height='25'>
           <MDBProgressBar className='progHtml' width='100' valuemin={0} valuemax={100}>
@@ -64,9 +69,23 @@ const MySkills = () => {
           </MDBProgress>
         </div>
 
+   
+    </div>
+    </section>
+
+    </AnimationOnScroll>
+ 
 
 
-        <div  class="col-xl-4 col-lg-4 col-md-4 col-sm-4 mt-5 mb-2 logo">
+   
+       
+      <AnimationOnScroll animateIn="animate__fadeInLeftBig" className='d-flex'>
+        
+        <section class="container skills text-center mb-5">
+        <div class="row">
+    
+       
+    <div  class="col-xl-4 col-lg-4 col-md-4 col-sm-4 mt-5 mb-2 logo">
             <i class="fa-brands fa-css3 mb-5 icc"></i>
             <p>CSS</p>
         </div>
@@ -79,8 +98,26 @@ const MySkills = () => {
          </MDBProgressBar>
          </MDBProgress>
        </div>
+   
+    
+       
+        </div>
+        </section>
+    
+        </AnimationOnScroll>
+     
+    
+    
 
+   
 
+        <AnimationOnScroll animateIn="animate__fadeInLeftBig" className='d-flex'>
+        
+        <section class="container skills text-center mb-5">
+        <div class="row">
+    
+       
+   
         <div  class="col-xl-4 col-lg-4 col-md-4 col-sm-4 mt-5 mb-2 logo">
             <i class="fa-brands fa-js mb-5 icc "></i>
             <p>Java Script</p>
@@ -94,9 +131,25 @@ const MySkills = () => {
          </MDBProgressBar>
          </MDBProgress>
        </div>
+    
+       
+        </div>
+        </section>
+    
+        </AnimationOnScroll>
+     
+
+       
 
 
-
+     
+        <AnimationOnScroll animateIn="animate__fadeInLeftBig" className='d-flex'>
+        
+        <section class="container skills text-center mb-5">
+        <div class="row">
+    
+       
+   
         <div  class="col-xl-4 col-lg-4 col-md-4 col-sm-4 mt-5 mb-2 logo">
             <i class="fa-brands fa-bootstrap mb-5 icc"></i>
             <p>Bootstrap</p>
@@ -112,8 +165,27 @@ const MySkills = () => {
          </MDBProgress>
        </div>
 
+        </div>
+        </section>
+    
+        </AnimationOnScroll>
+     
 
+       
+
+
+       
+
+       
+
+   
+        <AnimationOnScroll animateIn="animate__fadeInLeftBig" className='d-flex'>
         
+        <section class="container skills text-center mb-5">
+        <div class="row">
+    
+      
+       
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 mt-5 mb-2 logo">
             <i class="fa-brands fa-mdb mb-5 icc"></i>
             <p>MDB</p>
@@ -127,9 +199,26 @@ const MySkills = () => {
          </MDBProgressBar>
          </MDBProgress>
        </div>
+    
+       
 
+        </div>
+        </section>
+    
+        </AnimationOnScroll>
+     
 
+       
+
+       
+
+        <AnimationOnScroll animateIn="animate__fadeInLeftBig" className='d-flex'>
         
+        <section class="container skills text-center mb-5">
+        <div class="row">
+    
+      
+      
         <div  class="col-xl-4 col-lg-4 col-md-4 col-sm-4 mt-5 mb-2 logo">
             <i class="fa-brands fa-react mb-5 icc"></i>
             <p>React</p>
@@ -146,8 +235,23 @@ const MySkills = () => {
 
 
 
-    </div>
-</section>
+    
+       
+
+        </div>
+        </section>
+    
+        </AnimationOnScroll>
+     
+
+       
+
+     
+  
+      
+
+      
+  
 
 {/* skills end */}
 
