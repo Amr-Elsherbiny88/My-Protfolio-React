@@ -1,6 +1,6 @@
 import React from 'react'
 
-import "animate.css/animate.min.css";
+
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
