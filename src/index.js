@@ -5,7 +5,7 @@ import App from './App';
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { motion } from "framer-motion"
+
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
