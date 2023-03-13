@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.25ff1eef.css",
+    "main.js": "/static/js/main.43ec9468.js",
+    "static/media/Shop.png": "/static/media/Shop.065332d8c5afd100532f.png",
+    "static/media/facebook.png": "/static/media/facebook.654e4f741dc43c59a299.png",
+    "static/media/Ecommerce.png": "/static/media/Ecommerce.5c4e24c5e68006d0de0e.png",
+    "static/media/Palette-amico.png": "/static/media/Palette-amico.00a8b1080b3d47c62553.png",
+    "static/media/Coding.png": "/static/media/Coding.bb6aca19b9b760895e7d.png",
+    "static/media/Master.png": "/static/media/Master.fc537f7590044f235cf8.png",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.2877d54f94f30c5d563c.ttf",
+    "static/media/Hand coding-bro.png": "/static/media/Hand coding-bro.aa188cee7ec5cc9c19bb.png",
+    "static/media/Programming-rafiki.png": "/static/media/Programming-rafiki.3c6b0da6fa5f3c8dec0e.png",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.13e40630e5866f777de8.ttf",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.bdb9e23299f9d1320a8b.woff2",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.7be2266f1be21c44ecd4.woff2",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.146404900f7550a9719d.ttf",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.8bedd7cfa43a6c358cdd.woff2",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.6c0a7b774ffa1cf0a059.ttf",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
+    "index.html": "/index.html",
+    "main.25ff1eef.css.map": "/static/css/main.25ff1eef.css.map",
+    "main.43ec9468.js.map": "/static/js/main.43ec9468.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25ff1eef.css",
+    "static/js/main.43ec9468.js"
+  ]
+}

@@ -1,0 +1,10 @@
+.butt{
+    transition: all;
+}
+
+.butt:hover{
+    transition: 0.5s;
+    scale: 1.1;
+    background-color: black;
+    border-color: red;
+}
